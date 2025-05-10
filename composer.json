@@ -10,7 +10,8 @@
         "almasaeed2010/adminlte": "~3.2",
         "jeroennoten/laravel-adminlte": "^3.15",
         "laravel/framework": "^12.0",
-        "laravel/tinker": "^2.10.1"
+        "laravel/tinker": "^2.10.1",
+        "spatie/laravel-permission": "^6.17"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",
