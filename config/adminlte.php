@@ -14,7 +14,7 @@ return [
     |
     */
 
-    'title' => 'AdminLTE 3',
+    'title' => 'MiniCurso Laravel',
     'title_prefix' => '',
     'title_postfix' => '',
 
@@ -63,7 +63,7 @@ return [
     |
     */
 
-    'logo' => '<b>Admin</b>LTE',
+    'logo' => '<b>MiniCurso</b>',
     'logo_img' => 'vendor/adminlte/dist/img/AdminLTELogo.png',
     'logo_img_class' => 'brand-image img-circle elevation-3',
     'logo_img_xl' => null,
@@ -314,15 +314,37 @@ return [
         //Produtos
         [
             'text' => 'Produtos',
-            'url' => 'admin/produtos',
+            'url' => 'admin/produtos/',
             'icon' => 'fas fa-fw fa-box',
+             'active' => [
+                'admin/produtos*',
+            ],
+        ],
+
+        // Categorias
+        [
+            'text' => 'Categorias',
+            'url' => 'admin/categorias/',
+            'icon' => 'fas fa-fw fa-tags',
+             'active' => [
+                'admin/categorias*',
+            ],
+        ],
+
+
+        // Area do cliente
+        [
+            'text' => 'Área do Cliente',
+            'url' => '/produtos',
+            'icon' => 'fas fa-fw fa-shopping-cart',
         ],
         // Perfil
         [
             'text' => 'Perfil',
-            'url' => 'admin/perfil',
+            'url' => '/profile',
             'icon' => 'fas fa-fw fa-user',
         ],
+
     ],
 
     /*
