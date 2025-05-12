@@ -17,7 +17,7 @@
                         {{ __('Bem vindo') }}
                     </x-nav-link>
 
-                    <x-nav-link :href="route('produtos.index')" :active="request()->routeIs('produtos.*')">
+                    <x-nav-link :href="route('produtos-cliente.index')" :active="request()->routeIs('produtos-cliente.*')">
                         {{ __('Produtos') }}
                     </x-nav-link>
 

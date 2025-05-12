@@ -110,7 +110,7 @@ return [
     */
 
     'preloader' => [
-        'enabled' => true,
+        'enabled' => false,
         'mode' => 'fullscreen',
         'img' => [
             'path' => 'vendor/adminlte/dist/img/AdminLTELogo.png',
@@ -335,7 +335,7 @@ return [
         // Area do cliente
         [
             'text' => 'Área do Cliente',
-            'url' => '/produtos',
+            'url' => '/produtos-cliente',
             'icon' => 'fas fa-fw fa-shopping-cart',
         ],
         // Perfil
